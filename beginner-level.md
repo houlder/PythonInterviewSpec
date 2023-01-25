@@ -38,6 +38,7 @@ javatpoint
 
 ### What are functions in Python?
 A function is a block of code which is executed only when a call is made to the function. **def** keyword is used to define a particular function as shown below:
+
 **Example:**
 ```python
 def function():
@@ -72,6 +73,7 @@ javatpoint
 ```
 ### What are the common built-in data types in Python?
 Python supports the below-mentioned built-in data types:
+
 **Immutable data types:**
 -   Number
 -   String
@@ -85,6 +87,7 @@ Python supports the below-mentioned built-in data types:
 
 ### Why do we use join() function in Python?
 The join() is defined as a string method which returns a string value. It is concatenated with the elements of an iterable. It provides a flexible way to concatenate the strings. See an example below.
+
 **Example:**
 ```python
 1.  str = "Rohan"
@@ -105,6 +108,7 @@ aRohanb
 
 ### What is a dictionary in Python?
 The Python dictionary is a built-in data type. It defines a one-to-one relationship between keys and values. Dictionaries contain a pair of keys and their corresponding values. It stores elements in key and value pairs. The keys are unique whereas values can be duplicate. The key accesses the dictionary elements.
+
 Keys index dictionaries.
 **Example:**
 The following example contains some keys Country Hero & Cartoon. Their corresponding values are India, Modi, and Rahul respectively.
