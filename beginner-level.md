@@ -110,6 +110,7 @@ aRohanb
 The Python dictionary is a built-in data type. It defines a one-to-one relationship between keys and values. Dictionaries contain a pair of keys and their corresponding values. It stores elements in key and value pairs. The keys are unique whereas values can be duplicate. The key accesses the dictionary elements.
 
 Keys index dictionaries.
+
 **Example:**
 The following example contains some keys Country Hero & Cartoon. Their corresponding values are India, Modi, and Rahul respectively.
 ```python
@@ -125,7 +126,6 @@ Hero:  Modi
 Cartoon:  Rahul
 ```
 
-
 ### List 5 common Python Modules
 Commonly used built modules are listed below:
 -   os
@@ -133,20 +133,6 @@ Commonly used built modules are listed below:
 -   datatime
 -   math
 -   random
-
-### What is a dictionary in Python?
-Python dictionary is one of the supported [data types in Python](https://intellipaat.com/blog/tutorial/python-tutorial/python-datatypes/). It is an unordered collection of elements. The elements in dictionaries are stored as key-value pairs. Dictionaries are indexed by keys.
-
-For example, below we have a dictionary named ‘dict’. It contains two keys, Country and Capital, along with their corresponding values, India and New Delhi.
-
-**Syntaxe:**
-```python
-dict={‘Country’:’India’,’Capital’:’New Delhi’, }
-```
-**Output**:
-```Console
-Country**:** India, Capital**:** New Delhi
-```
 
 ### What is the shortest method to open a text file and display its content?
 The shortest way to open a text file is by using "with" command in the following manner:

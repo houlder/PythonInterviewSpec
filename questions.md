@@ -9,7 +9,6 @@
 - What is PYTHONPATH?
 - What is a dictionary in Python?
 - List 5 common Python Modules
-- What is a dictionary in Python?
 - What is the shortest method to open a text file and display its content?
 ## Intermediate Level
 - Give an example of shuffle() method?
