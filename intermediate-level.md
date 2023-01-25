@@ -32,6 +32,23 @@ After the first shuffle of LIST1:
 After the second shuffle of LIST1: 
 ['Z', 'Y', 'X', 'U', 'V', 'W']
 ```
+
+### List 11 type conversion in Python
+
+Type conversion refers to the conversion of one data type into another.
+
+- int() - converts any data type into integer type
+- float() - converts any data type into float type
+- ord() - converts characters into integer
+- hex() - converts integers to hexadecimal
+- oct() - converts integer to octal
+- tuple() - This function is used to convert to a tuple.
+- set() - This function returns the type after converting to set.
+- list() - This function is used to convert any data type to a list type.
+- dict() - This function is used to convert a tuple of order (key,value) into a dictionary.
+- str() - Used to convert integer into a string.
+- complex(real,imag) - This functionconverts real numbers to complex(real,imag) number.
+
 ### What is the use of break statement?
 The break statement is used to terminate the execution of the current loop. Break always breaks the current execution and transfer control to outside the current block. If the block is in a loop, it exits from the loop, and if the break is in a nested loop, it exits from the innermost loop.
 **Example:**
@@ -126,3 +143,81 @@ The most visible difference between Python2 and Python3 is in print statement (f
 String in Python2 is ASCII implicitly, and in Python3 it is Unicode.
 
 The xrange() method has removed from Python 3 version. A new keyword as is introduced in Error handling.
+
+### What is the usage of enumerate() function in Python?
+The enumerate() function is used to iterate through the sequence and retrieve the index position and its corresponding value at the same time.
+
+**Example:**
+```python
+1.  list_1 = ["A","B","C"]
+2.  s_1 = "Javatpoint"
+3.  # creating enumerate objects
+4.  object_1 = enumerate(list_1)
+5.  object_2 = enumerate(s_1)
+
+7.  print ("Return type:",type(object_1))
+8.  print (list(enumerate(list_1)))
+9.  print (list(enumerate(s_1)))
+```
+
+**Output:**
+```console
+Return type:
+[(0, 'A'), (1, 'B'), (2, 'C')]
+[(0, 'J'), (1, 'a'), (2, 'v'), (3, 'a'), (4, 't'), (5, 'p'), (6, 'o'), (7, 'i'), (8, 'n'), (9, 't')]
+```
+
+### What does [::-1] do?
+[::-1] ,this is an example of slice notation and helps to reverse the sequence with the help of indexing.
+**[Start,stop,step count]**
+
+**Example:**
+```python
+import array as arr
+Array_d=arr.array('i',[1,2,3,4,5])
+Array_d[::-1]    #reverse the array or sequence
+```
+**Output:** 
+```console
+5,4,3,2,1
+```
+
+### What is a map function in Python? Put 3 different example of using it.
+The map() function in Python has two parameters, function and iterable. The map() function takes a function as an argument and then applies that function to all the elements of an iterable, passed to it as another argument. It returns an object list of results.
+
+**Example: 1**
+```python
+def addition(n):
+    return n + n
+# We double all numbers using map()
+numbers = (1, 2, 3, 4)
+result = map(addition, numbers)
+print(list(result))
+```
+**Output**
+```console
+[2, 4, 6, 8]
+```
+**Example: 2**
+```python
+# Double all numbers using map and lambda
+numbers = (1, 2, 3, 4)
+result = map(lambda x: x + x, numbers)
+print(list(result))
+```
+**Output**
+```console
+[2, 4, 6, 8]
+```
+**Example: 3**
+```python
+# Add two lists using map and lambda
+numbers1 = [1, 2, 3]
+numbers2 = [4, 5, 6]
+result = map(lambda x, y: x + y, numbers1, numbers2)
+print(list(result))
+```
+**Output**
+```console
+[5, 7, 9]
+```

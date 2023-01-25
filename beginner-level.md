@@ -10,6 +10,11 @@ Unlike Java or C, Python does not require compilation before execution.
 ![Python Interview Questions](https://static.javatpoint.com/interview/images/python-interpreted-language.png)
 
 
+### Give the output of this example: A[3] if A=[1,4,6,7,9,66,4,94]
+Since indexing starts from zero, an element present at 3rd index is 7. 
+So, the output is **7**.
+
+
 ### How to remove whitespaces from a string in Python?
 To remove the whitespaces and trailing spaces from the string, Python providies strip([str]) built-in function. This function returns a copy of the string after removing whitespaces if present. Otherwise returns original string.
 **Example:**
@@ -35,6 +40,16 @@ Javatpoint
 javatpoint
 javatpoint
 ```
+
+### List 5 type conversion in Python
+
+Type conversion refers to the conversion of one data type into another.
+
+- int() - converts any data type into integer type
+- float() - converts any data type into float type
+- list() - This function is used to convert any data type to a list type.
+- dict() - This function is used to convert a tuple of order (key,value) into a dictionary.
+- str() - Used to convert integer into a string.
 
 ### What are functions in Python?
 A function is a block of code which is executed only when a call is made to the function. **def** keyword is used to define a particular function as shown below:
@@ -148,3 +163,74 @@ The shortest way to open a text file is by using "with" command in the following
 ```console
 "The data of the file will be printed."
 ```
+
+### What is the difference between Python Arrays and lists?
+
+Arrays and lists, in Python, have the same way of storing data. But, arrays can hold only a single data type elements whereas lists can hold any data type elements.
+
+**Example:**
+```python
+1.  import array as arr
+2.  User_Array = arr.array('i', [1,2,3,4])
+3.  User_list = [1, 'abc', 1.20]
+4.  print (User_Array)
+5.  print (User_list)
+```
+**Output:**
+```console
+array('i', [1, 2, 3, 4])
+[1, 'abc', 1.2]
+```
+
+### What is self in Python?
+
+Self is an instance or an object of a class. In Python, this is explicitly included as the first parameter. However, this is not the case in Java where it's optional. It helps to differentiate between the methods and attributes of a class with local variables.
+
+The self-variable in the init method refers to the newly created object while in other methods, it refers to the object whose method was called.
+
+
+### What is __init__?
+The __init__ is a method or constructor in Python. This method is automatically called to allocate memory when a new object/ instance of a class is created. All classes have the __init__ method.
+
+**Example:**
+```python
+1.  class Employee_1:
+2.      def __init__(self, name, age,salary):
+3.          self.name = name
+4.          self.age = age
+5.          self.salary = 20000
+6.  E_1 = Employee_1("pqr", 20, 25000)
+7.  # E1 is the instance of class Employee.
+8.  #__init__ allocates memory for E1.
+9.  print(E_1.name)
+10. print(E_1.age)
+11. print(E_1.salary)
+```
+**Output:**
+```console
+pqr
+20
+25000
+```
+
+### What are local variables and global variables in Python?
+
+**Local variable**: Any variable declared inside a function is known as Local variable and it’s accessibility remains inside that function only.
+
+**Global Variable**: Any variable declared outside the function is known as Global variable and it can be easily accessible by any function present throughout the program.
+
+**Example:**
+```python
+g=4   #global variable
+def func_multiply():
+    l=5   #local variable
+    m=g*l
+    return m
+func_multiply()
+```
+**Output:** 
+```console
+20
+```
+
+If you try to access the local variable outside the multiply function then you will end up with getting an error.
