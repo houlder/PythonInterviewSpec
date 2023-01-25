@@ -141,6 +141,20 @@ Hero:  Modi
 Cartoon:  Rahul
 ```
 
+### What does len() do?
+
+len() is an inbuilt function used to calculate the length of sequences like list, [python string](https://intellipaat.com/blog/tutorial/python-tutorial/python-strings/), and array.
+
+**Example:**
+```python
+my _list=[1,2,3,4,5]
+len(my_list)
+```
+**Output:**
+```console
+5
+```
+
 ### List 5 common Python Modules
 Commonly used built modules are listed below:
 -   os
@@ -163,6 +177,19 @@ The shortest way to open a text file is by using "with" command in the following
 ```console
 "The data of the file will be printed."
 ```
+
+### Explain the use of the 'with' statement and its syntax
+
+In Python, using the ‘with’ statement, we can open a file and close it as soon as the block of code, where ‘with’ is used, exits. In this way, we can opt for not using the close() method.
+
+```python
+with open("filename", "mode") as file_var:
+```
+
+### What does *args and **kwargs mean?
+
+-   *args: It is used to pass multiple arguments in a function.
+-   **kwargs: It is used to pass multiple keyworded arguments in a function in python.
 
 ### What is the difference between Python Arrays and lists?
 
@@ -234,3 +261,105 @@ func_multiply()
 ```
 
 If you try to access the local variable outside the multiply function then you will end up with getting an error.
+
+### Write a Python program to count the total number of lines in a text file
+
+```python
+def file_count(fname):
+    with open(fname) as f:
+    for i, 1 in enumerate(f):
+        pass
+    return i+1
+print(“Total number of lines in the text file: ”, file_count(“file.txt”))
+```
+
+### What would be the output if I run the following code block?
+
+```python
+list1 = [2, 33, 222, 14, 25]
+print(list1[-2])
+```
+
+1.  **14**
+2.  **33**
+3.  **25**
+4.  **Error**
+
+
+**Output:**
+```console
+14
+```
+### Write a sorting algorithm for a numerical dataset in Python
+
+```python
+my_list = ["8", "4", "3", "6", "2"]
+my_list = [int(i) for i in my_list]
+my_list.sort()
+print(my_list)
+```
+**Output:**
+```console
+[2, 3, 4, 6, 8]
+```
+
+### Write a program in Python to produce Star triangle
+```python
+def Star_triangle(n):
+    for x in range(n):
+        print(' '*(n-x-1)+'*'*(2*x+1))
+Star_triangle(9)
+```
+**Output:**
+```console
+***  
+*****  
+*******  
+*********  
+***********  
+*************  
+***************  
+*****************
+```
+
+### Write a program to produce Fibonacci series in Python
+Fibonacci series refers to the series where the element is the sum of two elements prior to it.
+
+```python
+n = int(input("number of terms? "))
+n1, n2 = 0, 1
+count = 0
+if n <= 0:
+    print("Please enter a positive integer")
+elif n == 1:
+    print("Fibonacci sequence upto",nterms,":")
+    print(n1)
+else:
+    print("Fibonacci sequence:")
+    while count < n:
+        print(n1)
+        nth = n1 + n2
+        n1 = n2
+        n2 = nth
+        count += 1
+```
+
+### Write a program in Python to check if a number is prime
+```python
+num = 13
+if num > 1:
+    for i in range(2, int(num/2)+1):
+        if (num % i) == 0:
+            print(num, "is not a prime number")
+            break
+        else:
+            print(num, "is a prime number")
+            break
+else:
+    print(num, "is not a prime number")
+```
+
+**Output:**
+```console
+13 is a prime number
+```

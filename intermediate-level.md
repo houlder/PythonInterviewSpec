@@ -95,6 +95,18 @@ unicode_1: ('ģ', '♥', '😸', '♞', '♟', 'Ⅸ')
 ### What is pep 8?
 PEP in Python stands for Python Enhancement Proposal. It is a set of rules that specify how to write and design Python code for maximum readability.
 
+### What is the lambda function in Python?
+A lambda function is an anonymous function (a function that does not have a name) in Python. To define anonymous functions, we use the ‘lambda’ keyword instead of the ‘def’ keyword, hence the name ‘lambda function’. Lambda functions can have any number of arguments but only one statement.
+
+**Example:**
+```python
+l = lambda x,y : x*y
+print(a(5, 6))
+```
+**Output:**
+```console
+30
+```
 
 ### What is slicing in Python?
 Slicing is a mechanism used to select a range of items from sequence type like list, tuple, and string. It is beneficial and easy to get elements from a range by using slice way. It requires a : (colon) which separates the start and end index of the field. All the data collection types List or tuple allows us to use slicing to fetch elements. Although we can get elements by specifying an index, we get only single element whereas using slicing we can get a group of elements.
@@ -113,10 +125,12 @@ vaTpoint, Python Interv
 
 ### Explain docstring in Python
 The Python docstring is a string literal that occurs as the first statement in a module, function, class, or method definition. It provides a convenient way to associate the documentation.
-String literals occurring immediately after a simple assignment at the top are called "attribute docstrings".
-String literals occurring immediately after another docstring are called "additional docstrings".
-Python uses triple quotes to create docstrings even though the string fits on one line.
+- String literals occurring immediately after a simple assignment at the top are called "attribute docstrings".
+- String literals occurring immediately after another docstring are called "additional docstrings".
+- Python uses triple quotes to create docstrings even though the string fits on one line.
+
 Docstring phrase ends with a period (.) and can be multiple lines. It may consist of spaces and other special chars.
+
 **Example:**
 ```python
 1.  # One-line docstrings
@@ -185,7 +199,7 @@ Array_d[::-1]    #reverse the array or sequence
 ### What is a map function in Python? Put 3 different example of using it.
 The map() function in Python has two parameters, function and iterable. The map() function takes a function as an argument and then applies that function to all the elements of an iterable, passed to it as another argument. It returns an object list of results.
 
-**Example: 1**
+**Example 1**
 ```python
 def addition(n):
     return n + n
@@ -194,22 +208,22 @@ numbers = (1, 2, 3, 4)
 result = map(addition, numbers)
 print(list(result))
 ```
-**Output**
+**Output:**
 ```console
 [2, 4, 6, 8]
 ```
-**Example: 2**
+**Example 2**
 ```python
 # Double all numbers using map and lambda
 numbers = (1, 2, 3, 4)
 result = map(lambda x: x + x, numbers)
 print(list(result))
 ```
-**Output**
+**Output:**
 ```console
 [2, 4, 6, 8]
 ```
-**Example: 3**
+**Example 3**
 ```python
 # Add two lists using map and lambda
 numbers1 = [1, 2, 3]
@@ -217,7 +231,78 @@ numbers2 = [4, 5, 6]
 result = map(lambda x, y: x + y, numbers1, numbers2)
 print(list(result))
 ```
-**Output**
+**Output:**
 ```console
 [5, 7, 9]
+```
+
+### How can the ternary operators be used in python?
+
+The ternary operator is the operator that is used to show [conditional statements in Python](https://intellipaat.com/blog/tutorial/python-tutorial/python-if-else-statements/). This consists of the boolean true or false values with a statement that has to be checked.
+
+**Syntax:**
+```python
+[on_true] if [expression] else [on_false]x, y = 10, 20 count = x if x < y else y
+```
+**Explanation:**
+
+The above expression is evaluated like if x < y else y, in this case, if x < y is true then the value is returned as count = x and if it is incorrect then count = y will be stored to result.
+
+### How will you remove duplicate elements from a list?
+
+To remove duplicate elements from the list we use the set() function.
+
+**Example:**
+```python
+demo_list=[5,4,4,6,8,12,12,1,5]
+print(demo_list)
+unique_list = list(set(demo_list))
+print(unique_list)
+```
+**Output:**
+```console
+[5,4,4,6,8,12,12,1,5]
+[1,5,6,8,12]
+```
+
+### How can files be deleted in Python?
+
+You need to import the OS Module and use os.remove() function for deleting a file in python.  
+
+```python
+import os
+os.remove("file_name.txt")
+```
+### Write a program in Python to execute the Bubble sort algorithm
+
+```python
+def bubbleSort(x):
+    n = len(x)
+    # Traverse through all array elements
+    for i in range(n-1):
+        for j in range(0, n-i-1):
+            if x[j] > x[j+1] :
+                x[j], x[j+1] = x[j+1], x[j]
+# Driver code to test above
+arr = [25, 34, 47, 21, 22, 11, 37]
+bubbleSort(arr)
+print ("Sorted array is:")
+print(arr)
+```
+
+**Output:**
+```console
+Sorted array is:
+[11, 21, 22, 25, 34, 37, 47]
+```
+
+###  Write a Program to print ASCII Value of a character in python
+```python
+x= 'a'
+# print the ASCII value of assigned character stored in x
+print(" ASCII value of '" + x + "' is", ord(x))
+```
+**Output:**
+```console
+ASCII value of 'a' is 97
 ```
