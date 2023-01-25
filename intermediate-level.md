@@ -58,9 +58,9 @@ The break statement is used to terminate the execution of the current loop. Brea
 3.  for i in list_1:
 4.      for j in list_2:
 5.          print(i, j)
-6.          if i == 'Y' and j == 33:
-7.              print('BREAK')
-8.              break
+6.      if i == 'Y' and j == 33:
+7.          print('BREAK')
+8.          break
 9.      else:
 10.        continue
 11.        break
