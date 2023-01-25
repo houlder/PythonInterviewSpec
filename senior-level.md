@@ -14,12 +14,12 @@ return “Hello, world!”
 ### What are some common error codes returned by FastAPI?
 Some common error codes that may be returned by FastAPI include:
 
--400: Bad Request
--401: Unauthorized
--403: Forbidden 
--404: Not Found
--405: Method Not Allowed
--500: Internal Server Error
+- 400: Bad Request
+- 401: Unauthorized
+- 403: Forbidden 
+- 404: Not Found
+- 405: Method Not Allowed
+- 500: Internal Server Error
 
 
 ### What is the best way to test endpoints that have been created using FastAPI?
