@@ -42,7 +42,7 @@
 - What are the differences between Python 2.x and Python 3.x?
 - What is the usage of enumerate() function in Python?
 - What does [::-1] do?
-- What is a map function in Python? Put 3 different example of using it.
+- What is a map function in Python? Put 3 different example of using it
 - How can the ternary operators be used in python?
 - How will you remove duplicate elements from a list?
 - How can files be deleted in Python?
@@ -60,12 +60,39 @@
 - Why would you use NumPy arrays instead of lists in Python?
 - How do you identify missing values and deal with missing values in Dataframe?
 ### FastAPI
+- Can you explain the architecture of FastAPI?
+- How do you define a route in FastAPI?
 - Can you give me an example of how to use HTTP methods with routes in FastAPI?
 - What are some common error codes returned by FastAPI?
 - What is the best way to test endpoints that have been created using FastAPI?
 - Can I upload files in FastAPI? If yes, then how?
+- What are some advantages of using FastAPI over Flask?
 - What is UTF8JSONResponse?
+- What is uvicorn? Why should it be used with FastAPI?
+- What are OpenAPI specifications and why are they important?
+- Do clients need to support JSON schema or OpenAPI specifications to interact with your API?
 ### Django
+- What are Django-admin and manage.py and explain their commands?
 - Explain the use of session in Django framework
+- In Django’s context, what’s the difference between a project and an app?
+- Discuss Django’s Request/Response Cycle
+- What are Django.shortcuts.render functions?
+- What is the Django Rest Framework?
+- What do you use middleware for in Django?
+- How can you see raw SQL queries running in Django?
+- List several caching strategies supported by Django
+- What is a QuerySet in the context of Django?
+- Difference between Django OneToOneField and ForeignKey Field?
+- How to combine multiple QuerySets in a View?
+- Difference between select_related and prefetch_related?
+- Explain Q objects in Django ORM
+- What are Django exceptions?
 ### Flask
+- Name the types of applications developers can create using Flask
+- Is the Flask framework open-source?
+- Can you explain why Flask is referred to as a micro-framework?
+- What does the /s, /b, /n  PDB command do?
+- Describe what the PUT, DELETE method does in Flask
 - How does Python Flask handle database requests?
+- Explain how to add the mailing feature in the Flask Application
+- How to change default host and port in Flask?
