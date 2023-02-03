@@ -6,7 +6,7 @@ Python est un langage interprété. Le programme en langage Python s'exécute di
 
 Contrairement à Java ou C, Python ne nécessite pas de compilation avant exécution.
 
-!Questions d'entretien sur Python](https://static.javatpoint.com/interview/images/python-interpreted-language.png)
+![Questions d'entretien sur Python](https://static.javatpoint.com/interview/images/python-interpreted-language.png)
 
 ## 2. Que sont les fonctions en Python ? Donnez un exemple et un résultat (0,5pt)
 
