@@ -51,7 +51,7 @@ Type conversion refers to the conversion of one data type into another.
 - dict() - This function is used to convert a tuple of order (key,value) into a dictionary.
 - str() - Used to convert integer into a string.
 
-### What are functions in Python?
+### What are functions in Python? Give an example & output
 A function is a block of code which is executed only when a call is made to the function. **def** keyword is used to define a particular function as shown below:
 
 **Example:**

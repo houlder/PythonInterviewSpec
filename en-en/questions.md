@@ -6,7 +6,7 @@
 - Give the output of this example: A[3] if A=[1,4,6,7,9,66,4,94]
 - How to remove whitespaces from a string in Python?
 - List 5 type conversion in Python
-- What are functions in Python?
+- What are functions in Python? Give an example & output
 - How to remove leading whitespaces from a string in the Python?
 - What are the common built-in data types in Python?
 - Why do we use join() function in Python?

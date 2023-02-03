@@ -6,7 +6,7 @@
 - Donnez la sortie de cet exemple : A[3] if A=[1,4,6,7,9,66,4,94]
 - Comment supprimer les espaces d'une chaîne de caractères en Python ?
 - Liste 5 type conversions en Python
-- Que sont les fonctions en Python ?
+- Que sont les fonctions en Python ? Donnez un exemple et un résultat
 - Comment supprimer les espaces au début d'en tête d'une chaîne de caractères en Python ?
 - Quels sont les types de données intégrés courants en Python ?
 - Pourquoi utilise-t-on la fonction join() en Python ?
