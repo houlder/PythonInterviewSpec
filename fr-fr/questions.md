@@ -51,7 +51,7 @@
 - Comment supprimer les éléments en double d'une liste ?
 - Comment supprimer des fichiers en Python ?
 - Ecrivez un programme en Python pour exécuter l'algorithme de tri à bulles.
-- Ecrire un programme pour imprimer la valeur ASCII d'un caractère en python
+- Ecrire un programme pour imprimer la valeur ASCII d'un Python est-il un langage interprété ? Expliquez (0,5pt)caractère en python
 
 ## Niveau supérieur
 
