@@ -45,7 +45,7 @@ npm install -g markdown-pdf
 markdown-pdf /path/to/markdown
 ```
 
-## NOTES:
+#### Also
 
 The GRIP results look just like GitHub README pages. The Pandoc result looks like (is) 
 LaTex format. And the Node.js result is the most original looking, but slightly harder to
