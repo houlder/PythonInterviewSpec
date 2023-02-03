@@ -45,7 +45,7 @@ La variable locale dans la méthode init fait référence à l'objet nouvellemen
 
 ## 6. Que fait la fonction len() ? (0,25pt)
 
-len() est une fonction intégrée utilisée pour calculer la longueur de séquences comme une liste, une [chaîne python] (https://intellipaat.com/blog/tutorial/python-tutorial/python-strings/) et un tableau.
+len() est une fonction intégrée utilisée pour calculer la longueur de séquences comme une liste, une ![chaîne python](https://intellipaat.com/blog/tutorial/python-tutorial/python-strings/) et un tableau.
 
 **Exemple:**
 ```python
