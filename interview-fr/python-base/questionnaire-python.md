@@ -15,7 +15,7 @@ Une fonction est un bloc de code qui n'est exécuté que lorsqu'un appel est fai
 **Exemple:**
 ```python
     def function() :
-        print("Hi, Welcome to Hairun Dud :)")
+        print("Bonjour, Bienvenue à Hairun Dud :)")
     function() ; # appel à la fonction
 ```
 **Sortie:**
