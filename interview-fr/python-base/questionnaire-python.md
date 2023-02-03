@@ -225,7 +225,7 @@ Une fonction lambda est une fonction anonyme (une fonction qui n'a pas de nom) e
 
 **Exemple:**
 ```python
-    l = lambda x,y : x*y
+    a = lambda x,y : x*y
     print(a(5, 6))
 ```
 **Sortie:**

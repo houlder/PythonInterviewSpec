@@ -100,7 +100,7 @@ A lambda function is an anonymous function (a function that does not have a name
 
 **Example:**
 ```python
-l = lambda x,y : x*y
+a = lambda x,y : x*y
 print(a(5, 6))
 ```
 **Output:**
