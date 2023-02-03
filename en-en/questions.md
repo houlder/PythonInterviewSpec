@@ -1,5 +1,7 @@
 # Q & R Python Interview
+
 ## Beginner Level
+
 - Is Python interpreted language? Explain
 - Give the output of this example: A[3] if A=[1,4,6,7,9,66,4,94]
 - How to remove whitespaces from a string in Python?
@@ -29,7 +31,9 @@
 - Write a program in Python to produce Star triangle
 - Write a program to produce Fibonacci series in Python
 - Write a program in Python to check if a number is prime
+
 ## Intermediate Level
+
 - Give an example of shuffle() method?
 - List 11 type conversion in Python
 - What is the use of break statement?
@@ -48,18 +52,23 @@
 - How can files be deleted in Python?
 - Write a program in Python to execute the Bubble sort algorithm
 - Write a Program to print ASCII Value of a character in python
+
 ## Senior Level
+
 ### Python Notion
+
 - Explain split(), sub(), subn() methods of “re” module in Python
 - Write a code to display the contents of a file in reverse
-- Write a Python program to check whether a given string is a palindrome or not, without using an iterative method?
+- Write a Python program to check whether a given string is a palindrome or not, without using an iterative method
 - Write an efficient code to count the number of capital letters in a file
 - Demonstrate how to send an email in Python Language using smtplib
 - What are Dict and List comprehensions?
 - What is pandas?
 - Why would you use NumPy arrays instead of lists in Python?
 - How do you identify missing values and deal with missing values in Dataframe?
+
 ### FastAPI
+
 - Can you explain the architecture of FastAPI?
 - How do you define a route in FastAPI?
 - Can you give me an example of how to use HTTP methods with routes in FastAPI?
@@ -71,7 +80,9 @@
 - What is uvicorn? Why should it be used with FastAPI?
 - What are OpenAPI specifications and why are they important?
 - Do clients need to support JSON schema or OpenAPI specifications to interact with your API?
+
 ### Django
+
 - What are Django-admin and manage.py and explain their commands?
 - Explain the use of session in Django framework
 - In Django’s context, what’s the difference between a project and an app?
@@ -87,7 +98,9 @@
 - Difference between select_related and prefetch_related?
 - Explain Q objects in Django ORM
 - What are Django exceptions?
+
 ### Flask
+
 - Name the types of applications developers can create using Flask
 - Is the Flask framework open-source?
 - Can you explain why Flask is referred to as a micro-framework?
