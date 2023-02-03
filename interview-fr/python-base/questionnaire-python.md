@@ -130,11 +130,8 @@ Dans Python 3, l'ancien type Unicode a été remplacé par le type "str", et la 
 
 **Exemple:**
 ```python
-    1. unicode_1 = ("\u0123", "\u2665", "\U0001f638", "\u265E", "\u265F", "\u2168")
-    2. imprimer (unicode_1)
-
-    1. unicode_1 = ("\u0123", "\u2665", "\U0001f638", "\u265E", "\u265F", "\u2168")
-    2. imprimez (unicode_1)
+    unicode_1 = ("\u0123", "\u2665", "\U0001f638", "\u265E", "\u265F", "\u2168")
+    print(unicode_1)
 ```
 **Sortie:**
 ```console

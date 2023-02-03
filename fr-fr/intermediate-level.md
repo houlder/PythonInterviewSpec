@@ -81,11 +81,8 @@ In Python 3, the old Unicode type has replaced by "str" type, and the string is 
 
 **Example:**
 ```python
-1.  unicode_1 = ("\u0123", "\u2665", "\U0001f638", "\u265E", "\u265F", "\u2168")
-2.  print (unicode_1)
-
-1.  unicode_1 = ("\u0123", "\u2665", "\U0001f638", "\u265E", "\u265F", "\u2168")
-2.  print (unicode_1)
+    unicode_1 = ("\u0123", "\u2665", "\U0001f638", "\u265E", "\u265F", "\u2168")
+    print(unicode_1)
 ```
 **Output:**
 ```console
