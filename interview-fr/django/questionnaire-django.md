@@ -1,5 +1,7 @@
 # Test de niveau sur Django Python (Note / 20 pts)
 
+## Evaluation de niveau sur la compréhension du Framework 
+
 ### 1. Que sont Django-admin et manage.py et expliquez leurs commandes ? (1,5pt)
 
 - "Django-admin" est l'utilitaire de ligne de commande de Django pour effectuer des tâches administratives. 
