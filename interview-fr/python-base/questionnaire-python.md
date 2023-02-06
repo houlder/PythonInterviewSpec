@@ -139,7 +139,9 @@ Dans Python 3, l'ancien type Unicode a été remplacé par le type "str", et la 
 
 ## 11. Qu'est-ce que le slicing en Python ? (0,5pt)
 
-Le découpage en tranches est un mécanisme utilisé pour sélectionner une gamme d'éléments à partir d'une séquence de type liste, tuple et chaîne. Il est avantageux et facile d'obtenir des éléments d'une plage en utilisant la méthode de découpage. Elle nécessite un : (deux points) qui sépare l'indice de début et de fin du champ. Tous les types de collecte de données (liste ou tuple) nous permettent d'utiliser le découpage pour récupérer des éléments. Bien que nous puissions obtenir des éléments en spécifiant un index, nous n'obtenons qu'un seul élément alors qu'en utilisant le slicing nous pouvons obtenir un groupe d'éléments.
+Le **slicing** ou découpage en tranches est un mécanisme utilisé pour sélectionner une gamme d'éléments à partir d'une séquence de type liste, tuple et chaîne. Il est avantageux et facile d'obtenir des éléments d'une plage en utilisant la méthode de découpage. 
+Elle nécessite un ***:*** (deux points) qui sépare l'indice de début et de fin du champ.
+Tous les types de collecte de données (liste ou tuple) nous permettent d'utiliser le découpage pour récupérer des éléments. Bien que nous puissions obtenir des éléments en spécifiant un index, nous n'obtenons qu'un seul élément alors qu'en utilisant le slicing nous pouvons obtenir un groupe d'éléments.
 
 ![Questions d'entretien sur Python](https://static.javatpoint.com/interview/images/slicing-in-python.png)
 

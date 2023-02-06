@@ -87,15 +87,16 @@ After stripping all leading whitespaces:
 javatpoint 
 javatpoint
 ```
-### What are the common built-in data types in Python?
-Python supports the below-mentioned built-in data types:
+### Quels sont les types de données intégrés courants en Python ?
 
-**Immutable data types:**
+Python prend en charge les types de données intégrés suivants :
+
+**Types de données immuables:**
 -   Number
 -   String
 -   Tuple
 
-**Mutable data types:**
+**Types de données modifiables:**
 -   List
 -   Dictionary
 -   set
@@ -188,10 +189,10 @@ In Python, using the ‘with’ statement, we can open a file and close it as so
 with open("filename", "mode") as file_var:
 ```
 
-### What does *args and **kwargs mean?
+### Que signifient *args et **kwargs ?
 
--   *args: It is used to pass multiple arguments in a function.
--   **kwargs: It is used to pass multiple keyworded arguments in a function in python.
+- *args : Il est utilisé pour passer plusieurs arguments dans une fonction.
+- **kwargs : Il est utilisé pour passer des arguments multiples avec des mots-clés dans une fonction en python.
 
 ### What is the difference between Python Arrays and lists?
 

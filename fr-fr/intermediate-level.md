@@ -76,17 +76,18 @@ Y 33
 BREAK
 ```
 
-### How to create a Unicode string in Python?
-In Python 3, the old Unicode type has replaced by "str" type, and the string is treated as Unicode by default. We can make a string in Unicode by using art.title.encode("utf-8") function.
+### Comment créer une chaîne Unicode en Python ?
 
-**Example:**
+Dans Python 3, l'ancien type Unicode a été remplacé par le type "str", et la chaîne est traitée en Unicode par défaut. Nous pouvons rendre une chaîne en Unicode en utilisant la fonction art.title.encode("utf-8").
+
+**Exemple:**
 ```python
     unicode_1 = ("\u0123", "\u2665", "\U0001f638", "\u265E", "\u265F", "\u2168")
     print(unicode_1)
 ```
-**Output:**
+**Sortie:**
 ```console
-unicode_1: ('ģ', '♥', '😸', '♞', '♟', 'Ⅸ')
+    unicode_1 : ('ģ', '♥', '😸', '♞', '♟', 'Ⅸ')
 ```
 
 ### What is pep 8?
@@ -105,19 +106,22 @@ print(a(5, 6))
 30
 ```
 
-### What is slicing in Python?
-Slicing is a mechanism used to select a range of items from sequence type like list, tuple, and string. It is beneficial and easy to get elements from a range by using slice way. It requires a : (colon) which separates the start and end index of the field. All the data collection types List or tuple allows us to use slicing to fetch elements. Although we can get elements by specifying an index, we get only single element whereas using slicing we can get a group of elements.
+### Qu'est-ce que le slicing en Python ?
 
-![Python Interview Questions](https://static.javatpoint.com/interview/images/slicing-in-python.png)
+Le **slicing** ou découpage en tranches est un mécanisme utilisé pour sélectionner une gamme d'éléments à partir d'une séquence de type liste, tuple et chaîne. Il est avantageux et facile d'obtenir des éléments d'une plage en utilisant la méthode de découpage. 
+Elle nécessite un ***:*** (deux points) qui sépare l'indice de début et de fin du champ.
+Tous les types de collecte de données (liste ou tuple) nous permettent d'utiliser le découpage pour récupérer des éléments. Bien que nous puissions obtenir des éléments en spécifiant un index, nous n'obtenons qu'un seul élément alors qu'en utilisant le slicing nous pouvons obtenir un groupe d'éléments.
 
-**Example:**
+![Questions d'entretien sur Python](https://static.javatpoint.com/interview/images/slicing-in-python.png)
+
+**Exemple:**
 ```python
-1.  Q = "JavaTpoint, Python Interview Questions!"
-2.  print(Q[2:25])
+    1.  Q = "JavaTpoint, Python Interview Questions !"
+    2. print(Q[2:25])
 ```
-**Output:**
+**Sortie:**
 ```console
-vaTpoint, Python Interv
+    vaTpoint, Python Interv
 ```
 
 ### Explain docstring in Python
@@ -194,44 +198,45 @@ Array_d[::-1]    #reverse the array or sequence
 5,4,3,2,1
 ```
 
-### What is a map function in Python? Put 3 different example of using it.
-The map() function in Python has two parameters, function and iterable. The map() function takes a function as an argument and then applies that function to all the elements of an iterable, passed to it as another argument. It returns an object list of results.
+### Qu'est-ce qu'une fonction map en Python ? Donnez 3 exemple différent d'utilisation
 
-**Example 1**
+La fonction map() en Python a deux paramètres, function et iterable. La fonction map() prend une fonction en argument, puis applique cette fonction à tous les éléments d'un itérable, qui lui est passé comme autre argument. Elle renvoie une liste d'objets de résultats.
+
+**Exemple 1**
 ```python
-def addition(n):
-    return n + n
-# We double all numbers using map()
-numbers = (1, 2, 3, 4)
-result = map(addition, numbers)
-print(list(result))
+    def addition(n) :
+        return n + n
+    # Nous doublons tous les nombres en utilisant map()
+    nombres = (1, 2, 3, 4)
+    résultat = map(addition, nombres)
+    print(liste(résultat))
 ```
-**Output:**
+**Sortie:**
 ```console
-[2, 4, 6, 8]
+    [2, 4, 6, 8]
 ```
-**Example 2**
+**Exemple 2**
 ```python
-# Double all numbers using map and lambda
-numbers = (1, 2, 3, 4)
-result = map(lambda x: x + x, numbers)
-print(list(result))
+    # Doublez tous les nombres en utilisant map et lambda
+    nombres = (1, 2, 3, 4)
+    résultat = map(lambda x : x + x, nombres)
+    print(liste(résultat))
 ```
-**Output:**
+**Sortie:**
 ```console
-[2, 4, 6, 8]
+    [2, 4, 6, 8]
 ```
-**Example 3**
+**Exemple 3**
 ```python
-# Add two lists using map and lambda
-numbers1 = [1, 2, 3]
-numbers2 = [4, 5, 6]
-result = map(lambda x, y: x + y, numbers1, numbers2)
-print(list(result))
+    # Ajoutez deux listes en utilisant map et lambda
+    nombres1 = [1, 2, 3]
+    nombres2 = [4, 5, 6]
+    result = map(lambda x, y : x + y, nombres1, nombres2)
+    print(liste(résultat))
 ```
-**Output:**
+**Sortie:**
 ```console
-[5, 7, 9]
+    [5, 7, 9]
 ```
 
 ### How can the ternary operators be used in python?
