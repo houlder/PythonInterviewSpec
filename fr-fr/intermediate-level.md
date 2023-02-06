@@ -144,16 +144,17 @@ Help() and dir() both functions are accessible from the Python interpreter and u
 **Dir() function**: The dir() function is used to display the defined symbols.
 
 
-### What are the differences between Python 2.x and Python 3.x?
-Python 2.x is an older version of Python. Python 3.x is newer and latest version. Python 2.x is legacy now. Python 3.x is the present and future of this language.
+### Quelles sont les différences entre Python 2.x et Python 3.x ?
 
-The most visible difference between Python2 and Python3 is in print statement (function). 
-- In Python 2, it looks like print "Hello"
-- In Python 3, it is print ("Hello").
+Python 2.x est une ancienne version de Python. Python 3.x est une version plus récente. Python 2.x est l'héritage actuel. Python 3.x est le présent et l'avenir de ce langage.
 
-String in Python2 is ASCII implicitly, and in Python3 it is Unicode.
+La différence la plus visible entre Python 2 et Python 3 est l'instruction print (fonction). 
+- En Python 2, cela ressemble à print "Hello".
+- En Python 3, c'est print ("Hello").
 
-The xrange() method has removed from Python 3 version. A new keyword as is introduced in Error handling.
+La chaîne de caractères dans Python2 est implicitement ASCII, et dans Python3 elle est Unicode.
+
+La méthode xrange() a été supprimée de la version Python 3. Un nouveau mot-clé as est introduit dans Error handling.
 
 ### What is the usage of enumerate() function in Python?
 The enumerate() function is used to iterate through the sequence and retrieve the index position and its corresponding value at the same time.

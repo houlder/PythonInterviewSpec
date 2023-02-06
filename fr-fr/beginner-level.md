@@ -2,13 +2,13 @@
 > Recommandation: Need Exemple and Output display.
 ```
 
-### is Python interpreted language? Explain
-Python is an interpreted language. The Python language program runs directly from the source code. It converts the source code into an intermediate language code, which is again translated into machine language that has to be executed.
+### Python est-il un langage interprété ? Expliquez
 
-Unlike Java or C, Python does not require compilation before execution.
+Python est un langage interprété. Le programme en langage Python s'exécute directement à partir du code source. Il convertit le code source en un code de langage intermédiaire, qui est à nouveau traduit en langage machine qui doit être exécuté.
 
-![Python Interview Questions](https://static.javatpoint.com/interview/images/python-interpreted-language.png)
+Contrairement à Java ou C, Python ne nécessite pas de compilation avant exécution.
 
+![Questions d'entretien sur Python](https://static.javatpoint.com/interview/images/python-interpreted-language.png)
 
 ### Give the output of this example: A[3] if A=[1,4,6,7,9,66,4,94]
 Since indexing starts from zero, an element present at 3rd index is 7. 
@@ -51,18 +51,19 @@ Type conversion refers to the conversion of one data type into another.
 - dict() - This function is used to convert a tuple of order (key,value) into a dictionary.
 - str() - Used to convert integer into a string.
 
-### What are functions in Python? Give an example & output
-A function is a block of code which is executed only when a call is made to the function. **def** keyword is used to define a particular function as shown below:
+### Que sont les fonctions en Python ? Donnez un exemple et un résultat
 
-**Example:**
+Une fonction est un bloc de code qui n'est exécuté que lorsqu'un appel est fait à la fonction. Le mot-clé **def** est utilisé pour définir une fonction particulière comme indiqué ci-dessous :
+
+**Exemple:**
 ```python
-def function():
-print("Hi, Welcome to Hairun Dud :)")
-function(); # call to the function
+    def function() :
+        print("Bonjour, Bienvenue à Hairun Dud :)")
+    function() ; # appel à la fonction
 ```
-**Output:**
+**Sortie:**
 ```console
-Hi, Welcome to Hairun Dud :)
+    Bonjour, Bienvenue à Hairun Dud :)
 ```
 
 ### How to remove leading whitespaces from a string in the Python?
@@ -117,9 +118,9 @@ The join() is defined as a string method which returns a string value. It is con
 aRohanb  
 ```
 
-### What is PYTHONPATH?
-**PYTHONPATH** has a role similar to PATH. This variable tells Python Interpreter where to locate the module files imported into a program. It should include the Python source library directory and the directories containing Python source code. PYTHONPATH is sometimes preset by Python Installer.
+### Qu'est-ce que PYTHONPATH ?
 
+**PYTHONPATH** a un rôle similaire à celui de PATH. Cette variable indique à Python Interpreter où trouver les fichiers de modules importés dans un programme. Elle doit inclure le répertoire de la bibliothèque source Python et les répertoires contenant le code source Python. PYTHONPATH est parfois prédéfini par l'installateur de Python.
 
 ### What is a dictionary in Python?
 The Python dictionary is a built-in data type. It defines a one-to-one relationship between keys and values. Dictionaries contain a pair of keys and their corresponding values. It stores elements in key and value pairs. The keys are unique whereas values can be duplicate. The key accesses the dictionary elements.
@@ -141,22 +142,23 @@ Hero:  Modi
 Cartoon:  Rahul
 ```
 
-### What does len() do?
+### Que fait la fonction len() ?
 
-len() is an inbuilt function used to calculate the length of sequences like list, [python string](https://intellipaat.com/blog/tutorial/python-tutorial/python-strings/), and array.
+**len()** est une fonction intégrée utilisée pour calculer la longueur de séquences comme une liste, une ![chaîne python](https://intellipaat.com/blog/tutorial/python-tutorial/python-strings/) et un tableau.
 
-**Example:**
+**Exemple:**
 ```python
-my _list=[1,2,3,4,5]
-len(my_list)
+    ma _liste=[1,2,3,4,5]
+    print(len(ma_liste))
 ```
-**Output:**
+**Sortie:**
 ```console
-5
+    5
 ```
 
-### List 5 common Python Modules
-Commonly used built modules are listed below:
+### Citer 5 modules Python courants
+
+Les modules construits les plus utilisés sont listés ci-dessous:
 -   os
 -   sys
 -   datatime
@@ -175,7 +177,7 @@ The shortest way to open a text file is by using "with" command in the following
 ```
 **Output:**
 ```console
-"The data of the file will be printed."
+    "The data of the file will be printed."
 ```
 
 ### Explain the use of the 'with' statement and its syntax
@@ -209,12 +211,11 @@ array('i', [1, 2, 3, 4])
 [1, 'abc', 1.2]
 ```
 
-### What is self in Python?
+### Qu'est-ce que self en Python ?
 
-Self is an instance or an object of a class. In Python, this is explicitly included as the first parameter. However, this is not the case in Java where it's optional. It helps to differentiate between the methods and attributes of a class with local variables.
+**Self** est une instance ou un objet d'une classe. En Python, il est explicitement inclus comme premier paramètre. Cependant, ce n'est pas le cas en Java où il est optionnel. Il permet de différencier les méthodes et les attributs d'une classe avec des variables locales.
 
-The self-variable in the init method refers to the newly created object while in other methods, it refers to the object whose method was called.
-
+La variable locale dans la méthode init fait référence à l'objet nouvellement créé alors que dans les autres méthodes, elle fait référence à l'objet dont la méthode a été appelée.
 
 ### What is __init__?
 The __init__ is a method or constructor in Python. This method is automatically called to allocate memory when a new object/ instance of a class is created. All classes have the __init__ method.

@@ -23,7 +23,6 @@ Une fonction est un bloc de code qui n'est exécuté que lorsqu'un appel est fai
     Bonjour, Bienvenue à Hairun Dud :)
 ```
 
-
 ## 3. Qu'est-ce que PYTHONPATH ? (1pt)
 
 **PYTHONPATH** a un rôle similaire à celui de PATH. Cette variable indique à Python Interpreter où trouver les fichiers de modules importés dans un programme. Elle doit inclure le répertoire de la bibliothèque source Python et les répertoires contenant le code source Python. PYTHONPATH est parfois prédéfini par l'installateur de Python.
@@ -39,18 +38,18 @@ Les modules construits les plus utilisés sont listés ci-dessous:
 
 ## 5. Qu'est-ce que self en Python ? (0,5pt)
 
-Self est une instance ou un objet d'une classe. En Python, il est explicitement inclus comme premier paramètre. Cependant, ce n'est pas le cas en Java où il est optionnel. Il permet de différencier les méthodes et les attributs d'une classe avec des variables locales.
+**Self** est une instance ou un objet d'une classe. En Python, il est explicitement inclus comme premier paramètre. Cependant, ce n'est pas le cas en Java où il est optionnel. Il permet de différencier les méthodes et les attributs d'une classe avec des variables locales.
 
 La variable locale dans la méthode init fait référence à l'objet nouvellement créé alors que dans les autres méthodes, elle fait référence à l'objet dont la méthode a été appelée.
 
 ## 6. Que fait la fonction len() ? (0,25pt)
 
-len() est une fonction intégrée utilisée pour calculer la longueur de séquences comme une liste, une ![chaîne python](https://intellipaat.com/blog/tutorial/python-tutorial/python-strings/) et un tableau.
+**len()** est une fonction intégrée utilisée pour calculer la longueur de séquences comme une liste, une ![chaîne python](https://intellipaat.com/blog/tutorial/python-tutorial/python-strings/) et un tableau.
 
 **Exemple:**
 ```python
     ma _liste=[1,2,3,4,5]
-    len(ma_liste)
+    print(len(ma_liste))
 ```
 **Sortie:**
 ```console
